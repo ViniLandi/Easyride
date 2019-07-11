@@ -1,0 +1,581 @@
+@charset "ISO-8859-1";
+
+* {
+	/* Borda externa */
+	margin: 0px;
+	/* Borda interna */
+	padding: 0px;
+}
+
+/* Topo */
+
+/* Icones Topo */
+.iconeTopo {
+	margin-left: 20px;
+}
+
+header img {
+	float: left;
+}
+
+.icone01 {
+	width: 70px;
+	height: 64px;
+}
+
+.icone02 {
+	width: 120;
+	height: 27px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.btnMobile {
+	float: right;
+	width: 150px;
+}
+
+/* footer Bar Topo */
+header li {
+	padding: 10px;
+	font-size: 18px;
+}
+
+header a {
+	color: white !important;
+	font-weight: bold;
+}
+
+/* Cor diferente para o menu */
+.dropdown-item {
+	color: rgb(52, 58, 64) !important;
+}
+
+/* Hover para o NAV do Div */
+.collapse .a {
+	width: 110px;
+}
+
+.snip1217 * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+}
+
+.snip1217 li {
+	display: inline-block;
+	list-style: outside none none;
+	/* margin: 0.5em 1.5em; */
+	padding: 0;
+}
+
+.snip1217 .a {
+	padding: 0.3em 0;
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.snip1217 .a:before, .snip1217 .a:after {
+	height: 3px;
+	position: absolute;
+	content: '';
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+	background-color: #ffffff;
+	width: 0;
+}
+
+.snip1217 .a:before {
+	top: 0;
+	left: 0;
+}
+
+.snip1217 .a:after {
+	bottom: 0;
+	right: 0;
+}
+
+.snip1217 .a:hover, .snip1217 .current .a {
+	color: #ffffff;
+}
+
+.snip1217 .a:hover:before, .snip1217 .current .a:before, .snip1217 .a:hover:after,
+	.snip1217 .current .a:after {
+	width: 100%;
+}
+
+/* Hover com o P do menu */
+.itemMenu .link:hover {
+	background-color: rgb(194, 185, 185);
+	font-weight: bold;
+}
+
+/* Footer ou Rodapé*/
+.footer {
+	background-color: rgb(52, 58, 64);
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+/* Códigos Reutilizados */
+.footer section {
+	float: left;
+	padding-top: 15px;
+	padding-left: 15px;
+	height: 75%;
+}
+
+/* Div do Mapa do Site */
+.VoceFooter {
+	width: 15%;
+	margin: 30px 60px;
+}
+
+/* Titulo */
+.VoceFooter h3, .MotoristaFooter h3, .enderecoFooter h3, .redesFooter h3
+	{
+	text-align: left;
+	color: WHITE;
+	font-family: monospace;
+}
+
+/* Configuracao da Escrita dos Links */
+.VoceFooter a, .MotoristaFooter a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Hover do Footer */
+.VoceFooter a:hover, .MotoristaFooter a:hover {
+	padding: 4px;
+	background-color: white;
+	color: black;
+}
+
+/* Motorista Footer */
+.MotoristaFooter {
+	width: 20%;
+	margin: 30px 30px;
+}
+
+/* Titulo Motoristas */
+.MotoristaFooter H3 {
+	color: white;
+}
+
+/* Section Redes Sociais */
+.redesFooter {
+	width: 18%;
+	margin: 30px 30px;
+	overflow: hidden;
+}
+/* Imagens do Footer */
+.img {
+	float: left;
+	margin: 2px;
+	margin-top: 30px;
+}
+
+.redesFooter img:hover, .iconeTopo:hover, .sobre h4:hover, .sobre1 h4:hover,
+	.sobre2 h4:hover, .imgServico:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* Section Endereco */
+.enderecoFooter {
+	width: 20%;
+	margin: 30px 60px;
+}
+
+.enderecoFooter h6 {
+	color: white;
+	text-decoration: italic;
+}
+
+.enderecoFooter p {
+	color: white;
+}
+
+/* Adicionar Hover com Tabela
+https://codepen.io/maheshambure21/pen/QwXaRw
+ */
+
+/* cadastro de funcionario, veiculo e Cliente */
+.cadastrar * {
+	margin: 0px;
+	padding: 0px;
+}
+
+.cadastrar h1, .logar h1, .snip1217 {
+	text-align: center;
+}
+
+.cadastrar form {
+	overflow: hidden;
+	border: 1px solid black;
+	border-radius: 20px;
+	width: 600px;
+	margin: 50px auto;
+}
+
+/* Dando um espaço maior para o funcionario */
+.cadastrar .form-group {
+	overflow: hidden;
+}
+
+.cadastrar input, .cadastrar select {
+	width: 400px;
+	float: left;
+	margin-left: 100px;
+}
+
+.cadastrar label {
+	float: left;
+	padding-top: 20px;
+	padding-left: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.cadastrar #enviar {
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	margin: 20px auto;
+	margin-left: 220px;
+}
+
+.valid-feedback, .invalid-feedback {
+	display: none;
+	width: 400px;
+	float: left;
+	margin-left: 100px;
+}
+
+/* Tela de Login */
+/* .logar *{
+    margin: 0px;
+    padding: 0px;
+} */
+.logar form {
+	overflow: hidden;
+	border: 1px solid black;
+	border-radius: 20px;
+	width: 400px;
+	margin: 100px auto;
+}
+
+.logar input {
+	width: 200px;
+	float: left;
+	margin-left: 100px;
+}
+
+.logar label {
+	float: left;
+	padding-top: 20px;
+	margin-left: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.logar #enviar {
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	margin: 20px auto;
+	margin-left: 150px;
+}
+
+/* Institucional */
+.instituicao h3 {
+	margin: 20px 70px;
+}
+
+.display {
+	width: 600px;
+	margin: 10px 70px;
+	float: left;
+	border-radius: 6px 6px 6px 6px;
+}
+
+.mensagemInstituicao {
+	width: 45%;
+	float: right;
+	overflow: hidden;
+	margin-right: 90px;
+	margin-top: 50px;
+	padding: 5px 5px 5px;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+.sobre, .sobre1, .sobre2 {
+	width: 95%;
+	float: left;
+	margin: 5px;
+	text-align: justify;
+}
+
+.sobre h4, .sobre1 h4, .sobre2 h4 {
+	text-align: center;
+}
+
+.sobre1, .sobre2 {
+	margin-top: 30px;
+	margin-right: 90px;
+}
+
+/* Tela de Serviços */
+.servicos {
+	width: 100%;
+}
+
+.serv1, .serv2, .serv3 {
+	width: 80%;
+	overflow: hidden;
+	margin: auto;
+}
+
+.serv1 img, .serv3 img {
+	width: 25% px;
+	height: 200px;
+	margin: 70px 140px;
+	float: left;
+}
+
+.serv1 h3 {
+	margin-top: 70px;
+}
+
+.serv1 h3, .serv1 p, .serv3 h3, .serv3 p {
+	width: 50%;
+	float: right;
+	margin-right: 140px;
+	text-align: justify;
+}
+
+.serv2, .serv3 {
+	margin-top: 20px;
+}
+
+.serv2 img {
+	width: 25% px;
+	height: 250px;
+	margin-top: 30px;
+	margin-right: 180px;
+	float: right;
+}
+
+.serv2 h3 {
+	margin-top: 35px;
+}
+
+.serv2 h3, .serv2 p {
+	width: 50%;
+	float: left;
+	margin-left: 140px;
+	text-align: justify;
+}
+
+.serv3 img {
+	margin: 20px 140px;
+}
+
+.serv3 h3 {
+	margin-top: 35px;
+}
+
+/* Tela Inicial */
+.indexFotorama div{
+	margin:auto; 	
+}
+
+/* Alteração de Cliente */
+.alterarCliente h3, .alterarFuncionario h3{
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.alterarCliente form, .alterarFuncionario form{
+	width: 42%;
+	margin:auto;
+	overflow:hidden;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.alterarCliente div, .alterarFuncionario div{
+	float: left;
+	margin-top: 5pox;
+	margin-left: 10px;
+	margin-bot: 5px;
+	display: inline;
+}
+
+.alterarCliente input[type=submit]{
+	margin-left: 10px;
+	margin-bottom:5px;
+}
+
+.alterarCliente input, .alterarFuncionario input{
+	width: 300px;
+}
+
+.viniViado{
+	width:100%;
+}
+
+/* Tabela da Tela de Alteracao do Cliente */
+.tabelaCliente, .tabelaFuncionario{
+	width: 60%;
+	margin: 30px auto;
+	border: solid 1px #ccc;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.tabelaCliente td, .tabelaFuncionario td{
+	text-align: center;
+	padding: 5px;
+}
+
+.tabelaCliente tr:nth-child(even), .tabelaFuncionario tr:nth-child(even){ /* toda linha par. (odd - ímpar) */
+	background-color:#ccc;
+}
+
+.tabelaCliente tr:first-child, .tabelaFuncionario tr:first-child{
+	background-color: #000;
+	color:#fff;
+}
+
+.tabelaCliente tr:first-child td:first-child, .tabelaFuncionario tr:first-child td:first-child{
+	border-radius: 8px 0px 0px 0px;
+}
+
+.tabelaCliente tr:first-child td:last-child, .tabelaFuncionario tr:first-child td:last-child{
+	border-radius: 0px 8px 0px 0px;
+}
+
+.tabelaCliente tr:last-child td:last-child, .tabelaFuncionario tr:last-child td:last-child{
+	border-radius: 0px 0px 8px 0px;
+}
+
+.tabelaCliente tr:last-child td:first-child, .tabelaFuncionario tr:last-child td:first-child{
+	border-radius: 0px 0px 0px 8px;
+}
+
+.agendarViagem form{
+    overflow: hidden;
+    width: 1100px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.agendarViagem .dias{
+    width: 1000px;
+    display: inline-block;
+}
+
+.agendarViagem div{
+    overflow: hidden;
+}
+
+.agendarViagem .dias input[type=checkbox]{
+    margin: 5px;
+}
+
+.agendarViagem .paineisDias{
+    margin-left: 80px;
+    width: 700px;
+}
+
+.agendarViagem .paineisDias label{
+    float: left;
+    margin: 10px;
+}
+
+.agendarViagem input[type=submit]{
+    float: right;
+    width: 200px;
+    margin: 10px;
+}
+
+.viagemUnica form{
+    overflow: hidden;
+    width: 700px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.viagemUnica input[type=button]{
+    margin: 5px;
+}
+
+.viagemUnica #horario{
+    width: 100px;
+    text-align: center;
+}
+
+.viagemUnica input[type=datetime-local]{
+    width: 220px;
+}
+
+.viagemUnica input[type=submit]{
+    width: 100px;
+    float: right;
+}
+
+.viagemUnica input[type=radio]{
+    display: inline;
+}
+
+.viagemUnica select{
+    width: 250px;
+}
+
+.minhaConta form{
+    overflow: hidden;
+    width: 1000px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.minhaConta table{
+    margin: 50px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
